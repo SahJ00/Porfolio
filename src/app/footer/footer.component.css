@@ -1,0 +1,43 @@
+.contac {
+  background-color: #338cc7;
+  height: 15vh;
+}
+
+.copyr {
+  background-color: #2475aa;
+  height: 10vh;
+}
+
+.h3-footer {
+  color: #ecf0f1!important;
+}
+
+.h5-footer {
+  color: #ecf0f1!important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
+
+.btn-linkedin,
+.btn-github,
+.btn-email {
+  color: #ecf0f1;
+  font-size: 25px;
+  transition: all 0.5s ease-out;
+}
+
+.btn-linkedin:hover,
+.btn-github:hover,
+.btn-email:hover {
+  color: #acacac
+}
+
+@media(max-width:500px) {
+  .contac {
+    height: 25vh;
+  }
+  
+  .copyr {
+    height: 15vh;
+  }
+}
